@@ -226,48 +226,6 @@
             "mes": 6,
             "valor": 8000,
             "referente": "06-2019"
-        },
-        {
-            "id": 31,
-            "ano": 2019,
-            "mes": 7,
-            "valor": 7000,
-            "referente": "07-2019"
-        },
-        {
-            "id": 32,
-            "ano": 2019,
-            "mes": 8,
-            "valor": 7000,
-            "referente": "08-2019"
-        },
-        {
-            "id": 33,
-            "ano": 2019,
-            "mes": 9,
-            "valor": 10000,
-            "referente": "09-2019"
-        },
-        {
-            "id": 34,
-            "ano": 2019,
-            "mes": 10,
-            "valor": 10000,
-            "referente": "10-2019"
-        },
-        {
-            "id": 35,
-            "ano": 2019,
-            "mes": 11,
-            "valor": 12000,
-            "referente": "11-2019"
-        },
-        {
-            "id": 36,
-            "ano": 2019,
-            "mes": 12,
-            "valor": 12000,
-            "referente": "12-2019"
         }
     ]
 }
