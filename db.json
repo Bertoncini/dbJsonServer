@@ -1,209 +1,273 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" },
-    { "id": 2, "title": "json-server2", "author": "typicode2" }
-  ],
-  "venda": [
-    {
-      "id": 1,
-      "ano": 2016,
-	  "valor": 78,
-	  "meses":[
-	  {
-		"id":1,
-		"mes":"jan",
-		"valor":1
-	  },
-	  {
-		"id":2,
-		"mes":"fev",
-		"valor":2
-	  },
-	  {
-		"id":3,
-		"mes":"mar",
-		"valor":3
-	  },
-	  {
-		"id":4,
-		"mes":"abr",
-		"valor":4
-	  },
-	  {
-		"id":5,
-		"mes":"mai",
-		"valor":5
-	  },
-	  {
-		"id":6,
-		"mes":"jun",
-		"valor":6
-	  },
-	  {
-		"id":7,
-		"mes":"jul",
-		"valor":7
-	  },
-	  {
-		"id":8,
-		"mes":"ago",
-		"valor":8
-	  },
-	  {
-		"id":9,
-		"mes":"set",
-		"valor":9
-	  },
-	  {
-		"id":10,
-		"mes":"out",
-		"valor":10
-	  },
-	  {
-		"id":11,
-		"mes":"nov",
-		"valor":11
-	  },
-	  {
-		"id":12,
-		"mes":"dez",
-		"valor":12
-	  }
-	  ]
-    },
-    {
-      "id": 2,
-      "ano": 2017,
-	  "valor": 78,
-	  "meses":[
-	  {
-		"id":1,
-		"mes":"jan",
-		"valor":1
-	  },
-	  {
-		"id":2,
-		"mes":"fev",
-		"valor":2
-	  },
-	  {
-		"id":3,
-		"mes":"mar",
-		"valor":3
-	  },
-	  {
-		"id":4,
-		"mes":"abr",
-		"valor":4
-	  },
-	  {
-		"id":5,
-		"mes":"mai",
-		"valor":5
-	  },
-	  {
-		"id":6,
-		"mes":"jun",
-		"valor":6
-	  },
-	  {
-		"id":7,
-		"mes":"jul",
-		"valor":7
-	  },
-	  {
-		"id":8,
-		"mes":"ago",
-		"valor":8
-	  },
-	  {
-		"id":9,
-		"mes":"set",
-		"valor":9
-	  },
-	  {
-		"id":10,
-		"mes":"out",
-		"valor":10
-	  },
-	  {
-		"id":11,
-		"mes":"nov",
-		"valor":11
-	  },
-	  {
-		"id":12,
-		"mes":"dez",
-		"valor":12
-	  }
-	  ]
-    },
-    {
-      "id": 3,
-      "ano": 2018,
-	  "valor": 78,
-	  "meses":[
-	  {
-		"id":1,
-		"mes":"jan",
-		"valor":1
-	  },
-	  {
-		"id":2,
-		"mes":"fev",
-		"valor":2
-	  },
-	  {
-		"id":3,
-		"mes":"mar",
-		"valor":3
-	  },
-	  {
-		"id":4,
-		"mes":"abr",
-		"valor":4
-	  },
-	  {
-		"id":5,
-		"mes":"mai",
-		"valor":5
-	  },
-	  {
-		"id":6,
-		"mes":"jun",
-		"valor":6
-	  },
-	  {
-		"id":7,
-		"mes":"jul",
-		"valor":7
-	  },
-	  {
-		"id":8,
-		"mes":"ago",
-		"valor":8
-	  },
-	  {
-		"id":9,
-		"mes":"set",
-		"valor":9
-	  },
-	  {
-		"id":10,
-		"mes":"out",
-		"valor":20
-	  },
-	  {
-		"id":11,
-		"mes":"nov",
-		"valor":11
-	  },
-	  {
-		"id":12,
-		"mes":"dez",
-		"valor":24
-	  }
-	  ]
-    }
-  ]
+    "vendaAno": [        
+        {
+            "id": 1,
+            "ano": 2017,
+            "valor": 78432.54
+        },
+        {
+            "id": 2,
+            "ano": 2018,
+            "valor": 33523.22
+        },
+        {
+            "id": 3,
+            "ano": 2019,
+            "valor": 88432.54
+        }
+    ],
+    "vendaMesAno": [
+        {
+            "id": 1,
+            "ano": 2017,
+            "mes": 1,
+            "valor": 432.00,
+            "referente": "01-2017"
+        },
+        {
+            "id": 2,
+            "ano": 2017,
+            "mes": 2,
+            "valor": 4000.54,
+            "referente": "02-2017"
+        },
+        {
+            "id": 3,
+            "ano": 2017,
+            "mes": 3,
+            "valor": 4000,
+            "referente": "03-2017"
+        },
+        {
+            "id": 4,
+            "ano": 2017,
+            "mes": 4,
+            "valor": 5000,
+            "referente": "04-2017"
+        },
+        {
+            "id": 5,
+            "ano": 2017,
+            "mes": 5,
+            "valor": 5500,
+            "referente": "05-2017"
+        },
+        {
+            "id": 6,
+            "ano": 2017,
+            "mes": 6,
+            "valor": 9500,
+            "referente": "06-2017"
+        },
+        {
+            "id": 7,
+            "ano": 2017,
+            "mes": 7,
+            "valor": 9500,
+            "referente": "07-2017"
+        },
+        {
+            "id": 8,
+            "ano": 2017,
+            "mes": 8,
+            "valor": 9000,
+            "referente": "08-2017"
+        },
+        {
+            "id": 9,
+            "ano": 2017,
+            "mes": 9,
+            "valor": 10000,
+            "referente": "09-2017"
+        },
+        {
+            "id": 10,
+            "ano": 2017,
+            "mes": 10,
+            "valor": 10000,
+            "referente": "10-2017"
+        },
+        {
+            "id": 11,
+            "ano": 2017,
+            "mes": 11,
+            "valor": 10000,
+            "referente": "11-2017"
+        },
+        {
+            "id": 12,
+            "ano": 2017,
+            "mes": 12,
+            "valor": 10000,
+            "referente": "12-2017"
+        },
+        {
+            "id": 13,
+            "ano": 2018,
+            "mes": 1,
+            "valor": 523,
+            "referente": "01-2018"
+        },
+        {
+            "id": 14,
+            "ano": 2018,
+            "mes": 2,
+            "valor": 2000.22,
+            "referente": "02-2018"
+        },
+        {
+            "id": 15,
+            "ano": 2018,
+            "mes": 3,
+            "valor": 3000,
+            "referente": "03-2018"
+        },
+        {
+            "id": 16,
+            "ano": 2018,
+            "mes": 4,
+            "valor": 2000,
+            "referente": "04-2018"
+        },
+        {
+            "id": 17,
+            "ano": 2018,
+            "mes": 5,
+            "valor": 2000,
+            "referente": "05-2018"
+        },
+        {
+            "id": 18,
+            "ano": 2018,
+            "mes": 6,
+            "valor": 2000,
+            "referente": "06-2018"
+        },
+        {
+            "id": 19,
+            "ano": 2018,
+            "mes": 7,
+            "valor": 2000,
+            "referente": "07-2018"
+        },
+        {
+            "id": 20,
+            "ano": 2018,
+            "mes": 8,
+            "valor": 4000,
+            "referente": "08-2018"
+        },
+        {
+            "id": 21,
+            "ano": 2018,
+            "mes": 9,
+            "valor": 2000,
+            "referente": "09-2018"
+        },
+        {
+            "id": 22,
+            "ano": 2018,
+            "mes": 10,
+            "valor": 2000,
+            "referente": "10-2018"
+        },
+        {
+            "id": 23,
+            "ano": 2018,
+            "mes": 11,
+            "valor": 6000,
+            "referente": "11-2018"
+        },
+        {
+            "id": 24,
+            "ano": 2018,
+            "mes": 12,
+            "valor": 6000,
+            "referente": "12-2018"
+        },
+        {
+            "id": 25,
+            "ano": 2019,
+            "mes": 1,
+            "valor": 8432,
+            "referente": "01-2019"
+        },
+        {
+            "id": 26,
+            "ano": 2019,
+            "mes": 2,
+            "valor": 7000.54,
+            "referente": "02-2019"
+        },
+        {
+            "id": 27,
+            "ano": 2019,
+            "mes": 3,
+            "valor": 7000,
+            "referente": "03-2019"
+        },
+        {
+            "id": 28,
+            "ano": 2019,
+            "mes": 4,
+            "valor": 7000,
+            "referente": "04-2019"
+        },
+        {
+            "id": 29,
+            "ano": 2019,
+            "mes": 5,
+            "valor": 7000,
+            "referente": "05-2019"
+        },
+        {
+            "id": 30,
+            "ano": 2019,
+            "mes": 6,
+            "valor": 8000,
+            "referente": "06-2019"
+        },
+        {
+            "id": 31,
+            "ano": 2019,
+            "mes": 7,
+            "valor": 7000,
+            "referente": "07-2019"
+        },
+        {
+            "id": 32,
+            "ano": 2019,
+            "mes": 8,
+            "valor": 7000,
+            "referente": "08-2019"
+        },
+        {
+            "id": 33,
+            "ano": 2019,
+            "mes": 9,
+            "valor": 10000,
+            "referente": "09-2019"
+        },
+        {
+            "id": 34,
+            "ano": 2019,
+            "mes": 10,
+            "valor": 10000,
+            "referente": "10-2019"
+        },
+        {
+            "id": 35,
+            "ano": 2019,
+            "mes": 11,
+            "valor": 12000,
+            "referente": "11-2019"
+        },
+        {
+            "id": 36,
+            "ano": 2019,
+            "mes": 12,
+            "valor": 12000,
+            "referente": "12-2019"
+        }
+    ]
 }
